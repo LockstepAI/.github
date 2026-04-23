@@ -4,14 +4,14 @@ Lockstep is the trust layer for autonomous software execution.
 
 We build products that let teams run AI systems with explicit constraints, verification, and proof.
 
-## What Lockstep does
+## Trust model
 
-- turns intent into an executable contract
-- constrains agent behavior with policy and approvals
-- verifies outcomes against concrete checks
-- issues receipts and proof for what actually happened
+- contracts define what must be true
+- policy defines what the agent may do
+- verification checks the outcome
+- receipts prove what actually happened
 
-## Current products
+## Products
 
 - `@lockstepai/lockstep` — terminal CLI for Lockstep Dev
 - `@lockstepai/sdk` — TypeScript client for the Lockstep API
