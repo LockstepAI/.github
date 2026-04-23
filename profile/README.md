@@ -1,19 +1,23 @@
 # Lockstep
 
-Lockstep is the trust layer for autonomous software execution.
+Frontier AI is a stack of open problems. We work on every layer of it.
 
-We build products that let teams run AI systems with explicit constraints, verification, and proof.
+What a model is. What a model computes. What a model does.
 
-## Trust model
+Three questions, three research programs, one lab.
 
-- contracts define what must be true
-- policy defines what the agent may do
-- verification checks the outcome
-- receipts prove what actually happened
+We work across every layer of that stack:
 
-## Products
+- more efficient model architectures
+- mechanistic understanding of what models compute internally
+- agent execution held to contracts that cannot be silently broken
 
-- `@lockstepai/lockstep` — terminal CLI for Lockstep Dev
-- `@lockstepai/sdk` — TypeScript client for the Lockstep API
+Today one product is live:
 
-More products will ship on top of the same trust model.
+- Lockstep Dev, the terminal trust layer for autonomous software execution
+
+```bash
+npm install -g @lockstepai/lockstep
+```
+
+More products will ship on top of the same thesis.
